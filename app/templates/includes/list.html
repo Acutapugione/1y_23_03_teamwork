@@ -1,0 +1,6 @@
+{% set endpoint = "product" %}
+{% for item in items %}
+<ul>
+    <li><a href="{% url_for(endpoint, id = id) %}">{{item}}</a></li>
+</ul>
+{% endfor %}

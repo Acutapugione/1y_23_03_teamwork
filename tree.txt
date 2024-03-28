@@ -1,0 +1,15 @@
+.
+├── app
+│   ├── __init__.py
+│   ├── models
+│   │   └── __init__.py
+│   ├── routes
+│   │   └── __init__.py
+│   └── templates
+│       ├── _base.html
+│       ├── includes
+│       └── macro
+├── main.py
+└── tree.txt
+
+6 directories, 6 files
